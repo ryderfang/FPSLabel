@@ -1,5 +1,5 @@
 PODS:
-  - FPSLabel (1.0.0)
+  - FPSLabel (1.0.2)
 
 DEPENDENCIES:
   - FPSLabel (from `../../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  FPSLabel: 452e561238e8e77c1302f2b11712ce75c99812aa
+  FPSLabel: d9bf84269e0cabf6c78fdb8e7f3c7ef985e0ac5d
 
-PODFILE CHECKSUM: 82ee9a03114844a4ef325c7b4cd3efd3fa6ed2f5
+PODFILE CHECKSUM: 7c7d663af8de8ec76d52bf8c41cbda387934800d
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.9.1

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <FPSLabel/FPSLabel.h>
+#import "FPSLabel-Swift.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [FPSLabel installOnWindow:self.window];
+    [FPSLabel installOn:self.window];
     return YES;
 }
 
