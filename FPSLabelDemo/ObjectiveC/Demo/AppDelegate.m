@@ -18,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    if (@available(iOS 13.0, *)) {
+        UIWindow.appearance.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+        UITableView.appearance.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+    }
     [FPSLabel installOn:self.window];
     return YES;
 }
